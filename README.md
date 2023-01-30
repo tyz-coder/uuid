@@ -15,11 +15,15 @@ Supported versions:
 * Version 4, based on random numbers (RFC 4122)
 * Version 5, based on SHA-1 hashing (RFC 4122)
 
+## Fork By
+* [github.com/satori/go.uuid](github.com/satori/go.uuid)
+* Update project name to uuid
+
 ## Installation
 
 Use the `go` command:
 
-	$ go get github.com/satori/go.uuid
+	$ go get github.com/tyz-coder/uuid
 
 ## Requirements
 
@@ -32,7 +36,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/satori/go.uuid"
+	"github.com/tyz-coder/uuid"
 )
 
 func main() {
